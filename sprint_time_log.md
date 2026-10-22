@@ -1,8 +1,8 @@
 # CSE 310 - Sprint Time Log
 
-Name:
+Name: Talmage Winters
 
-Sprint #:
+Sprint #: 3
 
 ## Instructions
 
@@ -24,14 +24,14 @@ The expected minimum amount of time each Sprint for each category is as follows:
 
 ## Time Log
 
-|Date      |Start Time|Category|Description                                 |Total Minutes|
-|----------|----------|:------:|--------------------------------------------|:-----------:|
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
-|          |          |        |                                            |             |
+|Date      |Category|Description                                                             |Total Minutes|
+|----------|:------:|------------------------------------------------------------------------|:-----------:|
+|10/19/2026|   IM   |Filled out planning assignment, started W3Schools tutorial              |    01:08    |
+|10/21/2026|   IM   |Learned about for loops, for-while loops, creating functions in Java.   |    01:52    |
+|          |        |                                                                        |             |
+|          |        |                                                                        |             |
+|          |        |                                                                        |             |
+|          |        |                                                                        |             |
 
 _Note: Add more rows as needed._
 
