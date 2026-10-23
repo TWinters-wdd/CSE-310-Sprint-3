@@ -28,8 +28,8 @@ The expected minimum amount of time each Sprint for each category is as follows:
 |----------|:------:|------------------------------------------------------------------------|:-----------:|
 |10/19/2026|   IM   |Filled out planning assignment, started W3Schools tutorial              |    01:08    |
 |10/21/2026|   IM   |Learned about for loops, for-while loops, creating functions in Java.   |    01:52    |
-|          |        |                                                                        |             |
-|          |        |                                                                        |             |
+|10/22/2026|   TP   |Created a basic map without the street labels and such.                 |    01:01    |
+|10/23/2026|   TP   |Resolved Merge conflicts from map branch onto the main branch.          |    01:00    |
 |          |        |                                                                        |             |
 |          |        |                                                                        |             |
 
