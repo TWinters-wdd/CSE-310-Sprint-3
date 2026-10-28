@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class MultiTimeGoal extends Goal{
     private int _timesToComplete;
     private int _timesCompleted;
@@ -12,5 +14,29 @@ public class MultiTimeGoal extends Goal{
         super();
         _timesToComplete = timesToComplete;
         _timesCompleted = timesCompleted;
+    }
+
+    @Override
+    public void CreateGoal() {
+        Scanner inputScanner = new Scanner(System.in);
+        System.out.print("Enter the name of the goal: ");
+
+        _goalName = inputScanner.nextLine();
+
+        System.out.print("How many times do you want to complete this goal? ");
+        _timesToComplete = inputScanner.nextInt();
+    }
+
+    @Override
+    public String GetFormattedString() {
+        return "[" + _timesCompleted + "/" + _timesToComplete + "] " + _goalName;
+    }
+
+    @Override
+    public void MarkCompleted() {
+        _timesCompleted++;
+        if (_timesCompleted >= _timesToComplete) {
+            _isCompleted = true;
+        }
     }
 }
