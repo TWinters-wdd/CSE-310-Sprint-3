@@ -32,6 +32,7 @@ The expected minimum amount of time each Sprint for each category is as follows:
 |10/23/2026|   TP   |Resolved Merge conflicts from map branch onto the main branch.          |    01:00    |
 |10/23/2026|   IM   |Set up Eclipse to work with JavaFX. Started following YT tutorial.      |    01:01    |
 |10/26/2026|   IM   |Initialized basic Goal Classes with Inheritance and Overrides.          |    00:59    |
+|10/27/2026|   IM   |Base Goal Class Finished on the terminal based program.                 |    01:02    |
 
 _Note: Add more rows as needed._
 
