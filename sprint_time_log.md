@@ -24,15 +24,17 @@ The expected minimum amount of time each Sprint for each category is as follows:
 
 ## Time Log
 
-|Date      |Category|Description                                                             |Total Minutes|
-|----------|:------:|------------------------------------------------------------------------|:-----------:|
-|10/19/2026|   IM   |Filled out planning assignment, started W3Schools tutorial              |    01:08    |
-|10/21/2026|   IM   |Learned about for loops, for-while loops, creating functions in Java.   |    01:52    |
-|10/22/2026|   TP   |Created a basic map without the street labels and such.                 |    01:01    |
-|10/23/2026|   TP   |Resolved Merge conflicts from map branch onto the main branch.          |    01:00    |
-|10/23/2026|   IM   |Set up Eclipse to work with JavaFX. Started following YT tutorial.      |    01:01    |
-|10/26/2026|   IM   |Initialized basic Goal Classes with Inheritance and Overrides.          |    00:59    |
-|10/27/2026|   IM   |Base Goal Class Finished on the terminal based program.                 |    01:02    |
+|Date      |Category|Description                                                                                 | Total Time  |
+|----------|:------:|--------------------------------------------------------------------------------------------|:-----------:|
+|10/19/2026|   IM   |Filled out planning assignment, started W3Schools tutorial                                  |    01:08    |
+|10/21/2026|   IM   |Learned about for loops, for-while loops, creating functions in Java.                       |    01:52    |
+|10/22/2026|   TP   |Created a basic map without the street labels and such.                                     |    01:01    |
+|10/23/2026|   TP   |Resolved Merge conflicts from map branch onto the main branch.                              |    01:00    |
+|10/23/2026|   IM   |Set up Eclipse to work with JavaFX. Started following YT tutorial.                          |    01:01    |
+|10/26/2026|   IM   |Initialized basic Goal Classes with Inheritance and Overrides.                              |    00:59    |
+|10/27/2026|   IM   |Base Goal Class Finished on the terminal based program.                                     |    01:02    |
+|10/28/2026|   IM   |Worked on EndlessGoal and MultiTimeGoal Classes.                                            |    00:45    |
+|10/29/2026|   TP   |Installed missing dependencies on my machine, started reading w3schools typescript tutorial.|    00:58    |
 
 _Note: Add more rows as needed._
 
