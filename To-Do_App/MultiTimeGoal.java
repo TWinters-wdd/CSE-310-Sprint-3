@@ -8,12 +8,14 @@ public class MultiTimeGoal extends Goal{
         super();
         _timesToComplete = 0;
         _timesCompleted = 0;
+        _goalType = "MultiTime";
     }
 
     public MultiTimeGoal(int timesToComplete, int timesCompleted) {
         super();
         _timesToComplete = timesToComplete;
         _timesCompleted = timesCompleted;
+        _goalType = "MultiTime";
     }
 
     @Override
@@ -30,6 +32,11 @@ public class MultiTimeGoal extends Goal{
     @Override
     public String GetFormattedString() {
         return "[" + _timesCompleted + "/" + _timesToComplete + "] " + _goalName;
+    }
+
+    @Override
+    public String GetFileString() {
+        return _timesCompleted + "#" + _timesToComplete + "#" + _goalName + "#" + _goalType + "\n";
     }
 
     @Override

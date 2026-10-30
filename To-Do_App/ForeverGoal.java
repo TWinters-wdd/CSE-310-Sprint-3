@@ -6,11 +6,13 @@ public class ForeverGoal extends Goal {
     public ForeverGoal() {
         super();
         _timesCompleted = 0;
+        _goalType = "Forever";
     }
 
     public ForeverGoal(int timesCompleted) {
         super();
         _timesCompleted = timesCompleted;
+        _goalType = "Forever";
     }
 
     @Override
@@ -24,6 +26,11 @@ public class ForeverGoal extends Goal {
     @Override
     public String GetFormattedString() {
         return "[" + _timesCompleted + "] " + _goalName;
+    }
+
+    @Override
+    public String GetFileString() {
+        return _timesCompleted + "#" + _goalName + "#" + _goalType + "\n";
     }
 
     @Override

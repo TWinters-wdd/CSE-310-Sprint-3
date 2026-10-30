@@ -1,0 +1,3 @@
+false#Talk to bishop#OneTime
+1#5#Go to Temple#MultiTime
+0#Study Scriptures#Forever
