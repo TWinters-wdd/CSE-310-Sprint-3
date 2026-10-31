@@ -36,6 +36,8 @@ The expected minimum amount of time each Sprint for each category is as follows:
 |10/28/2026|   IM   |Worked on EndlessGoal and MultiTimeGoal Classes.                                            |    00:45    |
 |10/29/2026|   TP   |Installed missing dependencies on my machine, started reading w3schools typescript tutorial.|    00:58    |
 |10/30/2026|   IM   |Continued working on ForeverGoal class and MultiTimeGoal class.                             |    01:27    |
+|10/30/2026|   TP   |Brainstormed Treasure Ideas for our application.                                            |    01:00    |
+|10/31/2026|   IM   |Finished the Program.java file. Continued the Bro Code YouTube tutorial for the GUI.        |    01:46    |
 
 _Note: Add more rows as needed._
 
@@ -43,7 +45,7 @@ _Note: Add more rows as needed._
 
 |Categroy                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
-|IM - Individual Module         |                          |
-|TP - Team Project              |                          |
-|MTG - Class Meetings           |                          |
-|**TOTAL**                      |                          |
+|IM - Individual Module         |           10:00          |
+|TP - Team Project              |           04:00          |
+|MTG - Class Meetings           |           04:00          |
+|**TOTAL**                      |           18:00          |
