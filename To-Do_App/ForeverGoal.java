@@ -9,10 +9,11 @@ public class ForeverGoal extends Goal {
         _goalType = "Forever";
     }
 
-    public ForeverGoal(int timesCompleted) {
+    public ForeverGoal(int timesCompleted, String goalName) {
         super();
         _timesCompleted = timesCompleted;
         _goalType = "Forever";
+        _goalName = goalName;
     }
 
     @SuppressWarnings("resource")

@@ -11,9 +11,9 @@ public class Goal {
         _goalType = "OneTime";
     }
 
-    public Goal(String name, String goalType) {
+    public Goal(String name, String goalType, boolean isCompleted) {
         _goalName = name;
-        _isCompleted = false;
+        _isCompleted = isCompleted;
         _goalType = goalType;
     }
 

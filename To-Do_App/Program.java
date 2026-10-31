@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.IOException;
 import java.io.FileWriter;
 import java.io.FileNotFoundException;
+// import java.util.regex.Matcher;
+// import java.util.regex.Pattern;
 
 public class Program {
     public static void main(String[] args) {
@@ -65,7 +67,42 @@ public class Program {
                 case 5:
                     // Loads the goals from external file into _goalList
                     System.out.print("Load goals from which file: ");
-                    String fromFile = userInput.nextLine();
+                    String fromFileName = userInput.nextLine();
+                    File myFile = new File(fromFileName);
+
+                    // Code to split the data into segments
+                    try (Scanner myReader = new Scanner(myFile)) {
+                        while (myReader.hasNextLine()) {
+                            String data = myReader.nextLine();
+                            String[] dataArray = data.split("#");
+
+                            String goalType = dataArray[dataArray.length - 1];
+
+                            switch(goalType) {
+                                case "OneTime":
+                                    boolean isCompleted = Boolean.parseBoolean(dataArray[0]);
+                                    String goalName = dataArray[1];
+                                    Goal newGoal = new Goal(goalName, goalType, isCompleted);
+                                    goalList.add(newGoal);
+                                    break;
+                                case "MultiTime":
+                                    int toComplete = Integer.parseInt(dataArray[1]);
+                                    int timesCompleted = Integer.parseInt(dataArray[0]);
+                                    String multiGoalName = dataArray[2];
+                                    Goal newMulti = new MultiTimeGoal(toComplete, timesCompleted, multiGoalName);
+                                    goalList.add(newMulti);
+                                    break;
+                                case "Forever":
+                                    int foreverTimesCompleted = Integer.parseInt(dataArray[0]);
+                                    ForeverGoal newForeverGoal = new ForeverGoal(foreverTimesCompleted, dataArray[1]);
+                                    goalList.add(newForeverGoal);
+                                    break;
+                            }
+                        }
+                    } catch (FileNotFoundException e) {
+                        System.out.println("An error occurred.");
+                        e.printStackTrace();
+                    }
                     
                     userChoice = -1;
                     break;

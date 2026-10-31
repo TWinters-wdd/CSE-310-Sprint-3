@@ -11,8 +11,9 @@ public class MultiTimeGoal extends Goal{
         _goalType = "MultiTime";
     }
 
-    public MultiTimeGoal(int timesToComplete, int timesCompleted) {
+    public MultiTimeGoal(int timesToComplete, int timesCompleted, String goalName) {
         super();
+        _goalName = goalName;
         _timesToComplete = timesToComplete;
         _timesCompleted = timesCompleted;
         _goalType = "MultiTime";
