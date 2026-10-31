@@ -35,6 +35,7 @@ The expected minimum amount of time each Sprint for each category is as follows:
 |10/27/2026|   IM   |Base Goal Class Finished on the terminal based program.                                     |    01:02    |
 |10/28/2026|   IM   |Worked on EndlessGoal and MultiTimeGoal Classes.                                            |    00:45    |
 |10/29/2026|   TP   |Installed missing dependencies on my machine, started reading w3schools typescript tutorial.|    00:58    |
+|10/30/2026|   IM   |Continued working on ForeverGoal class and MultiTimeGoal class.                             |    01:27    |
 
 _Note: Add more rows as needed._
 

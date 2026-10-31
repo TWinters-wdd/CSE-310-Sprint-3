@@ -15,6 +15,7 @@ public class ForeverGoal extends Goal {
         _goalType = "Forever";
     }
 
+    @SuppressWarnings("resource")
     @Override
     public void CreateGoal() {
         Scanner inputScanner = new Scanner(System.in);

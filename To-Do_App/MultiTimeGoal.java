@@ -18,6 +18,7 @@ public class MultiTimeGoal extends Goal{
         _goalType = "MultiTime";
     }
 
+    @SuppressWarnings("resource")
     @Override
     public void CreateGoal() {
         Scanner inputScanner = new Scanner(System.in);

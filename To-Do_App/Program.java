@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.io.File;
 import java.io.IOException;
 import java.io.FileWriter;
+import java.io.FileNotFoundException;
 
 public class Program {
     public static void main(String[] args) {
@@ -62,7 +63,10 @@ public class Program {
                     userChoice = -1;
                     break;
                 case 5:
-                    // Code to load the goals from a file
+                    // Loads the goals from external file into _goalList
+                    System.out.print("Load goals from which file: ");
+                    String fromFile = userInput.nextLine();
+                    
                     userChoice = -1;
                     break;
                 case 6:

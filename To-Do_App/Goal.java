@@ -27,6 +27,7 @@ public class Goal {
 
     }
 
+    @SuppressWarnings("resource")
     public void CreateGoal() {
         Scanner myScanner = new Scanner(System.in);
         System.out.print("Enter the name for your goal: ");
